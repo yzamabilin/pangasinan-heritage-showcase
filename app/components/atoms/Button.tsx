@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type ButtonProps = {
   label: string;
   href?: string;
@@ -6,14 +8,16 @@ type ButtonProps = {
 
 export default function Button({ label, href, onClick }: ButtonProps) {
   const classes =
-    "inline-flex items-center gap-2 px-6 py-3 rounded-full  bg-[#2E472C] text-white font-medium hover:bg-[#c9d8c9] transition-colors";
+    "inline-flex items-center gap-2 px-6 py-3 rounded-full border-2 " +
+    "border-[#8fa88f] bg-[#dce6dc] text-[#1f2e1f] font-medium " +
+    "hover:bg-[#c9d8c9] transition-colors";
 
   if (href) {
     return (
-      <a href={href} className={classes}>
+      <Link href={href} className={classes}>
         {label}
         <span aria-hidden="true">→</span>
-      </a>
+      </Link>
     );
   }
 
