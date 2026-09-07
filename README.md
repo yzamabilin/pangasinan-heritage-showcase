@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+PS C:\Users\LENOVO\Desktop\Activity-1.1-Sebido-Ryzza\source-code\Pangasinan\pangasinan> git add .
+warning: in the working copy of 'next.config.ts', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\LENOVO\Desktop\Activity-1.1-Sebido-Ryzza\source-code\Pangasinan\pangasinan> git commit -m "Fix image paths and button links for GitHub Pages base path"
+[main 39d7d4d] Fix image paths and button links for GitHub Pages base path
+ 3 files changed, 21 insertions(+), 13 deletions(-)
+PS C:\Users\LENOVO\Desktop\Activity-1.1-Sebido-Ryzza\source-code\Pangasinan\pangasinan> git push
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.02 KiB | 209.00 KiB/s, done.
+Total 8 (delta 7), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (7/7), completed with 7 local objects.
+To https://github.com/yzamabilin/pangasinan-heritage-showcase.git
+   2669e61..39d7d4d  main -> main
+PS C:\Users\LENOVO\Desktop\Activity-1.1-Sebido-Ryzza\source-code\Pangasinan\pangasinan> 
